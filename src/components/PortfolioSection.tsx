@@ -10,32 +10,32 @@ const portfolioItems = [
   {
     id: 1,
     image: portfolio1,
-    title: "Gambas rôtie, espuma de petits pois\nsur pain croustillant\net bisque corsée",
+    title: "Gambas rôtie,\nespuma de petits pois\nsur pain croustillant\net bisque corsée",
   },
   {
     id: 2,
     image: portfolio2,
-    title: "Tartare de saumon et son caviar",
+    title: "Tartare de saumon et\nson caviar",
   },
   {
     id: 3,
     image: portfolio3,
-    title: "Île flottante, sabayon à l'ail des ours et copeaux d'asperges",
+    title: "Île flottante,\nsabayon à l'ail des ours et\ncopeaux d'asperges",
   },
   {
     id: 4,
     image: portfolio4,
-    title: "Lapin farci aux fruits secs,\npolenta gratinée et légumes glacés",
+    title: "Lapin farci aux fruits secs,\npolenta gratinée,\nlégumes glacés",
   },
   {
     id: 5,
     image: portfolio5,
-    title: "Tartelette carottes et pommes accidulées",
+    title: "Tartelette carottes et\npommes accidulées",
   },
   {
     id: 6,
     image: portfolio6,
-    title: "Jsais meme plus c'est quoi ca",
+    title: "Couteaux en lamelle,\ngelée à l'estragon et caviar",
   },
 ];
 
