@@ -10,8 +10,8 @@ const portfolioItems = [
   {
     id: 1,
     image: portfolio1,
-    title: "Classic Pasta",
-    category: "Italian",
+    title: "Gambas rôtie, espuma de petits pois sur pain croustillant et bisque corsée",
+    category: "Rien",
   },
   {
     id: 2,
