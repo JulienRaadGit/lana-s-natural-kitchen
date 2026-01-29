@@ -10,38 +10,32 @@ const portfolioItems = [
   {
     id: 1,
     image: portfolio1,
-    title: "Gambas rôtie, espuma de petits pois sur pain croustillant et bisque corsée",
-    category: "Rien",
+    title: "Gambas rôtie, espuma de petits pois\nsur pain croustillant\net bisque corsée",
   },
   {
     id: 2,
     image: portfolio2,
-    title: "Chocolate Tart",
-    category: "Dessert",
+    title: "Tartare de saumon et son caviar",
   },
   {
     id: 3,
     image: portfolio3,
-    title: "Grilled Salmon",
-    category: "Seafood",
+    title: "Île flottante, sabayon à l'ail des ours et copeaux d'asperges",
   },
   {
     id: 4,
     image: portfolio4,
-    title: "Garden Bowl",
-    category: "Healthy",
+    title: "Lapin farci aux fruits secs,\npolenta gratinée et légumes glacés",
   },
   {
     id: 5,
     image: portfolio5,
-    title: "Artisan Bread",
-    category: "Bakery",
+    title: "Tartelette carottes et pommes accidulées",
   },
   {
     id: 6,
     image: portfolio6,
-    title: "Truffle Risotto",
-    category: "Italian",
+    title: "Jsais meme plus c'est quoi ca",
   },
 ];
 
@@ -84,7 +78,7 @@ const PortfolioSection = () => {
                 <p className="text-primary-foreground/70 uppercase tracking-widest text-xs mb-2">
                   {item.category}
                 </p>
-                <h3 className="font-serif text-2xl text-primary-foreground">
+                <h3 className="font-serif text-2xl text-primary-foreground text-center whitespace-pre-line max-w-[22ch] mx-auto leading-snug">
                   {item.title}
                 </h3>
               </div>
