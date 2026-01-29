@@ -6,13 +6,13 @@ const ContactSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-primary uppercase tracking-[0.2em] text-sm mb-4 font-medium">
-            Get In Touch
+            Contact
           </p>
           <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6">
-            Let's Create Together
+            Travaillons Ensemble
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Whether it's a private dinner, food styling, or collaboration—I'd love to hear from you
+            Pour un repas privé, un événement ou une collaboration – je serais ravie d'échanger avec vous
           </p>
         </div>
 
@@ -22,19 +22,19 @@ const ContactSection = () => {
               {
                 icon: Mail,
                 title: "Email",
-                info: "hello@lanajaggi.com",
-                href: "mailto:hello@lanajaggi.com",
+                info: "jaggi.lana@gmail.com",
+                href: "mailto:jaggi.lana@gmail.com",
               },
               {
                 icon: Phone,
-                title: "Phone",
-                info: "+1 (555) 123-4567",
-                href: "tel:+15551234567",
+                title: "Téléphone",
+                info: "076 506 30 45",
+                href: "tel:+41765063045",
               },
               {
                 icon: MapPin,
-                title: "Location",
-                info: "New York, NY",
+                title: "Localisation",
+                info: "Vérossaz, Suisse",
                 href: "#",
               },
             ].map((contact, index) => (
@@ -54,13 +54,13 @@ const ContactSection = () => {
           <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                Name
+                Nom
               </label>
               <input
                 type="text"
                 id="name"
                 className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all"
-                placeholder="Your name"
+                placeholder="Votre nom"
               />
             </div>
             <div>
@@ -71,7 +71,7 @@ const ContactSection = () => {
                 type="email"
                 id="email"
                 className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all"
-                placeholder="your@email.com"
+                placeholder="votre@email.com"
               />
             </div>
             <div className="md:col-span-2">
@@ -82,7 +82,7 @@ const ContactSection = () => {
                 id="message"
                 rows={5}
                 className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all resize-none"
-                placeholder="Tell me about your project..."
+                placeholder="Parlez-moi de votre projet..."
               />
             </div>
             <div className="md:col-span-2 text-center">
@@ -90,7 +90,7 @@ const ContactSection = () => {
                 type="submit"
                 className="bg-primary text-primary-foreground px-10 py-4 font-medium hover:bg-primary/90 transition-all duration-300 rounded-lg"
               >
-                Send Message
+                Envoyer
               </button>
             </div>
           </form>
