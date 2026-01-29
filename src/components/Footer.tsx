@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <p className="font-serif text-2xl font-semibold mb-2">Lana Jaggi</p>
             <p className="text-primary-foreground/70 text-sm">
-              Culinary Artist & Food Stylist
+              Cuisinière
             </p>
           </div>
 

@@ -19,19 +19,19 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <p className="text-primary-foreground/80 uppercase tracking-[0.3em] text-sm mb-4 font-medium">
-          Culinary Artist
+          Cuisinière
         </p>
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-primary-foreground mb-6 font-semibold leading-tight">
           Lana Jaggi
         </h1>
         <p className="text-primary-foreground/90 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-          Creating beautiful, nourishing dishes that celebrate the art of natural ingredients
+          Créative, perfectionniste et passionnée – je sublime les produits du terroir en créations culinaires authentiques
         </p>
         <a
           href="#portfolio"
           className="inline-block bg-primary text-primary-foreground px-8 py-4 font-medium hover:bg-primary/90 transition-all duration-300 rounded-lg"
         >
-          View My Work
+          Découvrir mon travail
         </a>
       </div>
 
