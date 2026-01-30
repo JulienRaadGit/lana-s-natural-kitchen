@@ -8,12 +8,9 @@ const ContactSection = () => {
           <p className="text-primary uppercase tracking-[0.2em] text-sm mb-4 font-medium">
             Contact
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6">
+          <h2 className="font-serif text-4xl md:text-5xl text-foreground">
             Travaillons Ensemble
           </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Pour un repas privé, un événement ou une collaboration – je serais ravie d'échanger avec vous
-          </p>
         </div>
 
         <div className="max-w-4xl mx-auto">

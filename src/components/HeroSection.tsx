@@ -25,7 +25,7 @@ const HeroSection = () => {
           Lana Jaggi
         </h1>
         <p className="text-primary-foreground/90 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-          Créative, perfectionniste et passionnée – je sublime les produits du terroir en créations culinaires authentiques
+          Passionnée, créative et curieuse - J'aime travailler les produits pour les sublimer et leur donner une saveur authentique.
         </p>
         <a
           href="#portfolio"
