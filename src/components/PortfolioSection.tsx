@@ -50,10 +50,10 @@ const PortfolioSection = () => {
             Portfolio
           </p>
           <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6">
-            Mes Créations
+            Mon Travail
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Une sélection de plats qui reflètent ma philosophie culinaire : fraîcheur, élégance et authenticité
+            Une sélection de plats qui reflètent ma cuisine.
           </p>
         </div>
 
