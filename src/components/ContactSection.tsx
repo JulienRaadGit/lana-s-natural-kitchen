@@ -11,14 +11,8 @@ const ContactSection = () => {
           <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6">
             Travaillons Ensemble
           </h2>
-          <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed">
-            Je suis une jeune cuisinière titulaire d'un CFC, formée au Restaurant Le Vélodrome à Aigle, établissement labellisé Fait Maison. Attentive au moindre détail, j'accorde une grande importance à l'esthétique des assiettes et au travail soigné. J'aime travailler les produits de A à Z, en respectant leur nature et leur qualité.
-          </p>
-          <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed mt-4">
-            Curieuse et motivée, je possède une réelle soif d'apprendre afin d'évoluer constamment et de perfectionner mes compétences. J'ai également participé au Concours vaudois des Meilleurs apprentis cuisiniers 2024, une expérience particulièrement enrichissante qui m'a permis de gagner en confiance en mon travail et en mes capacités.
-          </p>
-          <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed mt-4">
-            Passionnée par le voyage depuis toujours, je souhaite continuer à parcourir différents pays afin de découvrir de nouvelles cultures culinaires, d'explorer d'autres techniques et façons de travailler, et d'enrichir ma vision de la gastronomie. Ces expériences sont pour moi une source d'inspiration essentielle, me permettant d'évoluer aussi bien sur le plan professionnel que personnel.
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+            Pour un repas privé, un événement ou une collaboration – je serais ravie d'échanger avec vous
           </p>
         </div>
 
