@@ -11,8 +11,14 @@ const ContactSection = () => {
           <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6">
             Travaillons Ensemble
           </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Pour un repas privé, un événement ou une collaboration – je serais ravie d'échanger avec vous
+          <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed">
+            Je suis une jeune cuisinière titulaire d'un CFC, formée au Restaurant Le Vélodrome à Aigle, établissement labellisé Fait Maison. Attentive au moindre détail, j'accorde une grande importance à l'esthétique des assiettes et au travail soigné. J'aime travailler les produits de A à Z, en respectant leur nature et leur qualité.
+          </p>
+          <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed mt-4">
+            Curieuse et motivée, je possède une réelle soif d'apprendre afin d'évoluer constamment et de perfectionner mes compétences. J'ai également participé au Concours vaudois des Meilleurs apprentis cuisiniers 2024, une expérience particulièrement enrichissante qui m'a permis de gagner en confiance en mon travail et en mes capacités.
+          </p>
+          <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed mt-4">
+            Passionnée par le voyage depuis toujours, je souhaite continuer à parcourir différents pays afin de découvrir de nouvelles cultures culinaires, d'explorer d'autres techniques et façons de travailler, et d'enrichir ma vision de la gastronomie. Ces expériences sont pour moi une source d'inspiration essentielle, me permettant d'évoluer aussi bien sur le plan professionnel que personnel.
           </p>
         </div>
 
@@ -50,50 +56,6 @@ const ContactSection = () => {
             ))}
           </div>
 
-          {/* Simple Contact Form */}
-          <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                Nom
-              </label>
-              <input
-                type="text"
-                id="name"
-                className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all"
-                placeholder="Votre nom"
-              />
-            </div>
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all"
-                placeholder="votre@email.com"
-              />
-            </div>
-            <div className="md:col-span-2">
-              <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                Message
-              </label>
-              <textarea
-                id="message"
-                rows={5}
-                className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all resize-none"
-                placeholder="Parlez-moi de votre projet..."
-              />
-            </div>
-            <div className="md:col-span-2 text-center">
-              <button
-                type="submit"
-                className="bg-primary text-primary-foreground px-10 py-4 font-medium hover:bg-primary/90 transition-all duration-300 rounded-lg"
-              >
-                Envoyer
-              </button>
-            </div>
-          </form>
         </div>
       </div>
     </section>
