@@ -75,9 +75,6 @@ const PortfolioSection = () => {
                   hoveredId === item.id ? "opacity-100" : "opacity-0"
                 }`}
               >
-                <p className="text-primary-foreground/70 uppercase tracking-widest text-xs mb-2">
-                  {item.category}
-                </p>
                 <h3 className="font-serif text-2xl text-primary-foreground text-center whitespace-pre-line max-w-[22ch] mx-auto leading-snug">
                   {item.title}
                 </h3>
